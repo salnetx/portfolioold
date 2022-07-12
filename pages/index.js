@@ -20,7 +20,7 @@ export default function Home() {
              </div>             
               </div>
               <div className="lg:w-4/12 scale-100 rounded-lg -skew-x-2">
-                <Image alt="sahil gif" width="350" height="350" src="/sahilblack.png" />
+                <Image alt="sahil gif" width="350" height="350" src="/sahilnetic.gif" />
               </div>
           </div>
       

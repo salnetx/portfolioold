@@ -5,7 +5,7 @@ const Nav = ()=>{
     <div className="bg-black">
 
          <div className="rounded-full px-5">
-            <h1 className="text-white font-black text-3xl py-5">Sahilnetic</h1>
+          <Image alt="logo" className="rounded-full" width="60" height={60} src="/sahilnetic.png" />
           </div>
         <hr />
     </div>
