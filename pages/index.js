@@ -1,14 +1,16 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Layout from './components/Layout'
 import Linkinbio from './components/Linkinbio'
 import Footer from './components/Footer'
 import Blogs from './components/Blogs'
 export default function Home() {
+
   const [blocker,setBlocker] = useState('')
   const [blocker1,setBlocker1] = useState('none')
 	const hiddenDisplay = ()=>{
      setBlocker('block')
+     setBlocker1('none')
   }
   const hiddenDisplay2 = ()=>{
     setBlocker('none')
