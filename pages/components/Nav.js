@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Nav = ()=>{
    return(
-    <div>
+    <div className="bg-black">
 
          <div className="rounded-full px-5">
-          <Image alt="logo" className="rounded-full" width="60" height={60} src="/sahilnetic.png" />
+            <h1 className="text-white font-black text-3xl py-5">Sahilnetic</h1>
           </div>
         <hr />
     </div>
