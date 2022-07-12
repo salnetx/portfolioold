@@ -2,11 +2,12 @@ import Image from "next/image";
 import Header from "./Header";
 
 const Layout = ({children})=>{
+
   return(
  
 <div>
     <Header />
-<div className="mx-auto bg-black flex justify-center items-center filter blur-3xl animate-pulse duration-500 transition w-full">
+{/* <div className="mx-auto bg-black flex justify-center items-center filter blur-3xl animate-pulse duration-500 transition w-full">
 	<div className="mr-10 flex relative">
 		<div className="p-44 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-yellow-500 absolute top-20 right-0">
 
@@ -46,7 +47,8 @@ const Layout = ({children})=>{
 <main>{children}</main>
 
  </div>
-</div>
+</div> */}
+<main>{children}</main>
           </div>
   )
 }
