@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Layout from './components/Layout'
 import Linkinbio from './components/Linkinbio'
+import Footer from './components/Footer'
 export default function Home() {
   return (
     <Layout>
@@ -27,6 +28,7 @@ export default function Home() {
         </div>
       </div>
       <Linkinbio />
+      <Footer />
     </Layout>
   )
 }
