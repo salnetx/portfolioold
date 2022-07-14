@@ -8,7 +8,7 @@ const Blogs = ()=>{
   <div class="border border-2 shadow-lg rounded-lg py-20 text-white">Appmojo</div>
   <div class="border border-2 shadow-lg rounded-lg py-20 text-white">{"{Findvc}"}</div>
   <div class="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
-  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">addbyme</div>
+  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">addifylocal</div>
   <div class="border border-2 shadow-lg rounded-lg py-20 text-white">unipod</div>
 
 </div>

@@ -1,33 +1,21 @@
-import Image from "next/image";
 import Link from "next/link";
 const Linkinbio = ()=>{
-   return(
-    <div className="space-y-12 sm:mx-72 mx-8 bg-black">
 
-    <div className="border flex grid grid-cols-5 rounded-lg shadow-lg shadow-emerald-200 border-white border-t-2 border-l-2 hover:rounded">
-          <div className="translate-y-4 pl-8"> <Image alt="instagram logo" width="30" height="30" src="/twitter.png" /></div>
-        <h3 className="text-center text-white py-5 col-end-4 pl-2">Twitter</h3>
-    </div>
+  return(
+<div>
+<div class="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 text-center mx-6 sm:mx-48 gap-x-5 gap-y-5 mb-28">
+  
+  <a><div class="border border-2 shadow-lg rounded-lg py-20 text-white">Tailwind Components</div></a>
+  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">{"{Findvc}"}</div>
+  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
+  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">addbyme</div>
+  <div class="border border-2 shadow-lg rounded-lg py-20 text-white">unipod</div>
 
-    <div className="border flex grid grid-cols-5 rounded-lg shadow-lg shadow-purple-200 border-white border-t-2 border-l-2 hover:rounded">
-          <div className="translate-y-4 pl-8"> <Image alt="instagram logo" width="30" height="30" src="/instagram.png" /></div>
-        <h3 className="text-center text-white py-5 col-end-4 pl-2">Instagram</h3>
-    </div>
+</div>
 
-
-
-    <div className="border flex grid grid-cols-5 rounded-lg shadow-lg shadow-yellow-200 border-white border-t-2 border-l-2 hover:rounded">
-          <div className="translate-y-4 pl-8"> <Image alt="instagram logo" width="30" height="30" src="/instagram.png" /></div>
-        <h3 className="text-center text-white py-5 col-end-4 pl-2">Github</h3>
-    </div>
-
-    <div className="border flex grid grid-cols-5 rounded-lg shadow-lg shadow-rose-200 border-white border-t-2 border-l-2 hover:rounded">
-          <div className="translate-y-4 pl-8"> <Image alt="instagram logo" width="30" height="30" src="/css.png" /></div>
-        <h3 className="text-center text-white py-5 col-end-4 pl-2">TC</h3>
-    </div>
 
     </div>
-   )
+  )
 }
 
 export default Linkinbio;

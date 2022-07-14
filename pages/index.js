@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Layout from './components/Layout'
 import Linkinbio from './components/Linkinbio'
+import Contributions from './components/Contributions'
 import Footer from './components/Footer'
 import Blogs from './components/Blogs'
 export default function Home() {
@@ -30,8 +31,8 @@ export default function Home() {
                 <p className="text-xl text-white">  Hi There, This Is Sahil </p>
       
                 <div className="py-5 flex gap-x-4">
-                  <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Projects</a>
-                  <a href="https://ngl.link/sahilnetic" className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Confess Out</a>
+                  <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Contact</a>
+                  <a href="https://ngl.link/sahilnetic" className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>             
               </div>
               <div className="lg:w-4/12 scale-100 rounded-lg -skew-x-2">
@@ -46,16 +47,16 @@ export default function Home() {
       
       <div style={{display : `${blocker}`}}>
       <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Recent Projects</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-pink-100 underline decoration-wavy decoration-2 decoration-pink-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> : <span className='animate-pulse' onClick={hiddenDisplay2}>Links</span></h2>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-pink-100 underline decoration-wavy decoration-2 decoration-pink-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='animate-pulse' onClick={hiddenDisplay2}>Contribution</span> | Blogs</h2>
 
       <Blogs />
       </div>
 
       <div style={{display : `${blocker1}`}}>
-      <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Sweet Links</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='animate-pulse' onClick={hiddenDisplay} >Projects</span> : <span className='font-medium text-pink-100 underline decoration-2 decoration-wavy decoration-pink-500 underline-offset-8' onClick={hiddenDisplay2}>Links</span></h2>
+      <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Open Source Contribution</h1>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='animate-pulse' onClick={hiddenDisplay} >Projects</span> | <span className='font-medium text-pink-100 underline decoration-2 decoration-wavy decoration-pink-500 underline-offset-8' onClick={hiddenDisplay2}>Contribution</span> | Blogs</h2>
 
-      <Linkinbio />
+      <Contributions />
       </div>
 
       
