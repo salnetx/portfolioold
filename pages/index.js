@@ -12,7 +12,11 @@ export default function Home() {
   const [social, setSocial] = useState('none')
   
   const socialDisplay = ()=>{
-   setSocial('')
+   if(social=="none"){
+    setSocial('')
+   }else{
+    setSocial('none')
+   }
   }
 	const hiddenDisplay = ()=>{
      setBlocker('block')
