@@ -9,7 +9,11 @@ export default function Home() {
 
   const [blocker,setBlocker] = useState('')
   const [blocker1,setBlocker1] = useState('none')
+  const [social, setSocial] = useState('none')
   
+  const socialDisplay = ()=>{
+   setSocial('')
+  }
 	const hiddenDisplay = ()=>{
      setBlocker('block')
      setBlocker1('none')
@@ -33,8 +37,16 @@ export default function Home() {
       
                 <div className="py-5 flex gap-x-4">
                   <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Hire Me</a>
-                  <a href="https://ngl.link/sahilnetic" className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
-             </div>             
+                  <a onClick={socialDisplay} className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
+             </div>  
+             <div style={{display :social}} class='flex gap-x-4'>
+                <Image width="20" height="20" src="/addify.png" />
+                <Image width="20" height="20" src="/github.png" />
+                <Image width="20" height="20" src="/twitter.png" />
+                <Image width="20" height="20" src="/instagram.png" />
+                <Image width="20" height="20" src="/facebook.png" />
+                <Image width="20" height="20" src="/pinterest.png" />
+              </div>           
               </div>
               <div className="lg:w-4/12 scale-100 rounded-lg -skew-x-2">
                 <Image alt="sahil gif" width="350" height="350" src="/sahilnetic.gif" />
