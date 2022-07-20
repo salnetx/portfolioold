@@ -32,7 +32,7 @@ export default function Home() {
                 <p className="text-xl text-white">  Hi There, This Is Sahil </p>
       
                 <div className="py-5 flex gap-x-4">
-                  <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">My Blogs</a>
+                  <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Hire Me</a>
                   <a href="https://ngl.link/sahilnetic" className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>             
               </div>
