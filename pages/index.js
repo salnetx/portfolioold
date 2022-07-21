@@ -36,8 +36,8 @@ export default function Home() {
       
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
-                <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">😺 Hi, I'm Sahil </h1>
-                <p className="text-xl text-zinc-200"> I am a 👨‍💻 fullstack developer, and a ☁️ cloud specialist. I love 🍕 pizza and 😽 cats.
+                <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, I'm Sahil </h1>
+                <p className="text-xl text-zinc-200"> I am a fullstack developer, and a cloud specialist. I love to contribute to open source projects.
 
                 <span className='text-blue-400'> {"{Contact}"}</span>
                 </p>

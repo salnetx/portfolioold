@@ -7,7 +7,7 @@ const Nav = ()=>{
 
          <div className="rounded-full flex justify-between">
             <div className="pl-4">
-               <h1 className="text-white translate-y-4 font-medium text-xl">😼 Sahilnetic</h1>
+               <h1 className="text-white translate-y-4 font-medium text-xl">Sahilnetic</h1>
             </div>
           <Link passHref href="https://github.com/sahilnetic/portfolio/fork">
             <a><h4 className="text-white -translate-y-2 pt-5 pr-5">
