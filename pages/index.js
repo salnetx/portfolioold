@@ -5,6 +5,17 @@ import Linkinbio from './components/Linkinbio'
 import Contributions from './components/Contributions'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+// Images
+import addify from '../public/addify.png'
+import github from '../public/github.png'
+import twitter from '../public/twitter.png'
+import instagram from '../public/instagram.png'
+import facebook from '../public/facebook.png'
+import pinterest from '../public/pinterest.png'
+import profilImage from "../public/evilcat.png"
+
+
+
 export default function Home() {
 
   const [blocker,setBlocker] = useState('')
@@ -41,27 +52,22 @@ export default function Home() {
 
                 <span className='text-blue-400'> {"{Contact}"}</span>
                 </p>
-
-                <p className="text-xl text-zinc-200">   </p>
-
-
-
-      
+    
                 <div className="py-5 flex gap-x-4">
                   <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Hire Me</a>
                   <a onClick={socialDisplay} className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>  
              <div style={{display :social}} className='flex gap-x-4'>
-                <Image width="20" height="20" src="/addify.png" />
-                <Image width="20" height="20" src="/github.png" />
-                <Image width="20" height="20" src="/twitter.png" />
-                <Image width="20" height="20" src="/instagram.png" />
-                <Image width="20" height="20" src="/facebook.png" />
-                <Image width="20" height="20" src="/pinterest.png" />
+                <Image width="20" height="20" src={addify} />
+                <Image width="20" height="20" src={github} />
+                <Image width="20" height="20" src={twitter} />
+                <Image width="20" height="20" src={instagram} />
+                <Image width="20" height="20" src={facebook} />
+                <Image width="20" height="20" src={pinterest} />
               </div>           
               </div>
               <div className="lg:w-4/12 rounded-full scale-100 rounded-lg -translate-y-4">
-                <Image alt="sahil evil cat" width="350" height="350" src="/evilcat.png" />
+                <Image alt="sahil logo" width="350" height="350" src={profilImage} />
               </div>
           </div>
       
