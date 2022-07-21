@@ -37,7 +37,7 @@ export default function Home() {
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
                 <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, I'm Sahil </h1>
-                <p className="text-xl text-zinc-200"> I am a fullstack developer, and a cloud specialist. I love to contribute to open source projects.
+                <p className="text-xl text-zinc-200"> I am a fullstack developer, and a cloud specialist. I love to contribute to open source projects. Checkout some of my projects.
 
                 <span className='text-blue-400'> {"{Contact}"}</span>
                 </p>
@@ -60,7 +60,7 @@ export default function Home() {
                 <Image width="20" height="20" src="/pinterest.png" />
               </div>           
               </div>
-              <div className="lg:w-4/12 scale-100 rounded-lg -skew-x-2">
+              <div className="lg:w-4/12 rounded-full scale-100 rounded-lg -translate-y-4">
                 <Image alt="sahil evil cat" width="350" height="350" src="/evilcat.png" />
               </div>
           </div>
