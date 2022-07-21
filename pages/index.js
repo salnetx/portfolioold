@@ -31,19 +31,27 @@ export default function Home() {
     <Layout>
 
     
-<div className="py-16 bg-black">
+<div className="py-16 bg-zinc-900">
         <div className="container m-auto px-6">
       
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
-                <h1 className="text-4xl text-white font-medium leading-tight mb-5 capitalize">  Hey Yo ! </h1>
-                <p className="text-xl text-white">  Hi There, This Is Sahil </p>
+                <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">😺 Hi, I'm Sahil </h1>
+                <p className="text-xl text-zinc-200"> I am a 👨‍💻 fullstack developer, and a ☁️ cloud specialist. I love 🍕 pizza and 😽 cats.
+
+                <span className='text-blue-400'> {"{Contact}"}</span>
+                </p>
+
+                <p className="text-xl text-zinc-200">   </p>
+
+
+
       
                 <div className="py-5 flex gap-x-4">
                   <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Hire Me</a>
                   <a onClick={socialDisplay} className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>  
-             <div style={{display :social}} class='flex gap-x-4'>
+             <div style={{display :social}} className='flex gap-x-4'>
                 <Image width="20" height="20" src="/addify.png" />
                 <Image width="20" height="20" src="/github.png" />
                 <Image width="20" height="20" src="/twitter.png" />
@@ -53,7 +61,7 @@ export default function Home() {
               </div>           
               </div>
               <div className="lg:w-4/12 scale-100 rounded-lg -skew-x-2">
-                <Image alt="sahil gif" width="350" height="350" src="/sahilnetic.gif" />
+                <Image alt="sahil evil cat" width="350" height="350" src="/evilcat.png" />
               </div>
           </div>
       
@@ -61,7 +69,8 @@ export default function Home() {
       </div>
 
 
-      
+     
+      <div className='bg-zinc-900'>
       <div style={{display : `${blocker}`}}>
       <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Recent Projects</h1>
       <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-pink-100 underline decoration-wavy decoration-2 decoration-pink-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='animate-pulse' onClick={hiddenDisplay2}>Contribution</span></h2>
@@ -76,11 +85,10 @@ export default function Home() {
       <Contributions />
       </div>
 
-      
-      <div>
       <Footer />
-      </div>
       
+      </div>
+
     </Layout>
   )
 }

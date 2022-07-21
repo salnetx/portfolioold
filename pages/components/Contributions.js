@@ -8,12 +8,20 @@ const Contributions = ()=>{
     
     <Link passHref href="https://tailwindcomponents.com/u/sahilnetic">
     <a>
-    <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Tailwind Components</div>
+    <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3>Tailwind Components</h3>
+        <p className="text-xs">6 components</p>
+        </div>
+      </div>
     </a>
     </Link>
 
   </div>
-  
+
+       
+
   
       </div>
     )

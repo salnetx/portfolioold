@@ -7,17 +7,49 @@ const Projects = ()=>{
   
   <Link passHref href="https://appmojo.site">
   <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Appmojo</div>
+  <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3 className="text-xl text-white">App Mojo</h3>
+        <p className="text-xs text-gray-400">appmojo.site</p>
+        </div>
+      </div>
   </a>
   </Link>
   <Link passHref href="https://findvc.vercel.app">
   <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">{"{Findvc}"}</div>
-  </a>
+  <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3 className="text-xl text-white">Findvc</h3>
+        <p className="text-xs text-gray-400">Findvc.vercel.app</p>
+        </div>
+      </div>  </a>
   </Link>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addifylocal</div>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">unipod</div>
+  <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3 className="text-xl text-white">Addify</h3>
+        <p className="text-xs text-gray-400">addify.us</p>
+        </div>
+      </div>  
+
+      <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3 className="text-xl text-white">Addify local</h3>
+        <p className="text-xs text-gray-400">local.addify.us</p>
+        </div>
+      </div>
+
+
+      <div className="bg-zinc-700 backdrop-blur-md px-3 py-3 rounded-lg shadow-lg shadow-lg ">
+        <img className="w-full h-32 blur-3xl hover:animate-pulse hover:blur-xl rounded-xl" src="https://picsum.photos/200/300?random=1" alt="image" />
+        <div className="text-left">
+        <h3 className="text-xl text-white">Unipod</h3>
+        <p className="text-xs text-gray-400">unipod.space</p>
+        </div>
+      </div>
 
 </div>
 

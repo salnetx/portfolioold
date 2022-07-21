@@ -7,9 +7,10 @@ const Nav = ()=>{
 
          <div className="rounded-full flex justify-between">
             <div className="pl-4">
-             <Image alt="logo" className="rounded-full py-5" width="60" height={60} src="/sahilnetic.png" />
+               <h1 className="text-white translate-y-4 font-medium text-xl">😼 Sahilnetic</h1>
             </div>
-          <Link passHref href="https://github.com/sahilnetic/portfolio/fork"><a><h4 className="text-white pt-5 pr-5">
+          <Link passHref href="https://github.com/sahilnetic/portfolio/fork">
+            <a><h4 className="text-white -translate-y-2 pt-5 pr-5">
             <Image alt="github fork" width={30} height={30} src="/fork.png" />
             </h4>
             </a>
