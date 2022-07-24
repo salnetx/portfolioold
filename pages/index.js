@@ -5,6 +5,8 @@ import Linkinbio from './components/Linkinbio'
 import Contributions from './components/Contributions'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Domain from './components/Domain'
+import Certification from './components/Certification'
 // Images
 import addify from '../public/addify.png'
 import github from '../public/github.png'
@@ -49,12 +51,10 @@ export default function Home() {
              <div className="lg:w-6/12 lg:p-0 p-7">
                 <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, I'm Sahil </h1>
                 <p className="text-xl text-zinc-200"> I am a fullstack developer, and a cloud specialist. I love to contribute to open source projects. Checkout some of my projects.
-
-                <span className='text-blue-400'> {"{Contact}"}</span>
                 </p>
     
                 <div className="py-5 flex gap-x-4">
-                  <a href="#" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Hire Me</a>
+                  <a href="https://calendly.com/sahilnetic/meeting" className="text-white border px-5 py-2 border-white rounded-lg border-t-2 border-l-2">Contact</a>
                   <a onClick={socialDisplay} className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>  
              <div style={{display :social}} className='flex gap-x-4'>
@@ -75,21 +75,30 @@ export default function Home() {
       </div>
 
 
+
      
-      <div className='bg-zinc-900'>
+      <div className='bg-zinc-900'> 
+        
       <div style={{display : `${blocker}`}}>
-      <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Recent Projects</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-pink-100 underline decoration-wavy decoration-2 decoration-pink-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='animate-pulse' onClick={hiddenDisplay2}>Contribution</span></h2>
+      <h1 className="sm:mx-48 text-center mx-6 text-white text-2xl sm:text-5xl pb-10 font-light">Recent Projects</h1>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='hover:animate-pulse' onClick={hiddenDisplay2}>Contribution</span></h2>
 
       <Projects />
       </div>
 
       <div style={{display : `${blocker1}`}}>
-      <h1 className="text-center text-white text-2xl sm:text-5xl pb-10 font-medium">Open Source Contribution</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='animate-pulse' onClick={hiddenDisplay} >Projects</span> | <span className='font-medium text-pink-100 underline decoration-2 decoration-wavy decoration-pink-500 underline-offset-8' onClick={hiddenDisplay2}>Contribution</span></h2>
+      <h1 className="sm:mx-48 mx-6 text-white text-center text-2xl sm:text-5xl pb-10 font-light">Open Source Contribution</h1>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='hover:animate-pulse' onClick={hiddenDisplay} >Projects</span> | <span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay2}>Contribution</span></h2>
 
       <Contributions />
       </div>
+
+
+      <div className="py-16 bg-zinc-900">
+        <div className="container m-auto px-6">
+        <h2 className="sm:mx-24 text-white text-lg sm:text-2xl pb-10 font-light">Working Domain</h2>
+          <Domain />
+        </div></div>
 
       <Footer />
       
