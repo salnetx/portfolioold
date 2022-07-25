@@ -15,10 +15,12 @@ const Projects = ()=>{
   <div className="border border-2 shadow-lg rounded-lg py-20 text-white">{"{Findvc}"}</div>
   </a>
   </Link>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addifylocal</div>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">unipod</div>
 
+  <Link href="https://addify.us">
+  <a>
+  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
+  </a>
+  </Link>
 </div>
 
 

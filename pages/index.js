@@ -58,12 +58,10 @@ export default function Home() {
                   <a onClick={socialDisplay} className="text-white border px-5 pt-2 border-white rounded-lg border-t-2 border-l-2">Social Links</a>
              </div>  
              <div style={{display :social}} className='flex gap-x-4'>
-                <Image width="20" height="20" src={addify} />
-                <Image width="20" height="20" src={github} />
-                <Image width="20" height="20" src={twitter} />
-                <Image width="20" height="20" src={instagram} />
-                <Image width="20" height="20" src={facebook} />
-                <Image width="20" height="20" src={pinterest} />
+                <a href='https://addify.us'><Image width="20" height="20" src={addify} /></a>
+               <a href='https://github.com/sahilnetic'><Image width="20" height="20" src={github} /></a>
+                <a href='https://twitter.com/sahilnetic'><Image width="20" height="20" src={twitter} /></a>
+                <a href='https://instagram.com/sahilnetic'><Image width="20" height="20" src={instagram} /></a>
               </div>           
               </div>
               <div className="lg:w-4/12 rounded-full scale-100 rounded-lg -translate-y-4">
