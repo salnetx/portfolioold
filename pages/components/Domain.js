@@ -33,6 +33,13 @@ const Domain = ()=>{
       <div className="border border-2 border-emerald-800 border-b-4 border-r-4 shadow-lg rounded-lg py-24 text-white">Database</div>
       </a>
       </Link>
+
+      <Link passHref href="https://tailwindcomponents.com/u/sahilnetic">
+      <a>
+      <div className="border border-2 border-emerald-800 border-b-4 border-r-4 shadow-lg rounded-lg py-24 text-white">Bash Shell Scripting</div>
+      </a>
+      </Link>
+
     </div>
   
       </>

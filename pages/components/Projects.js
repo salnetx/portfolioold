@@ -16,9 +16,27 @@ const Projects = ()=>{
   </a>
   </Link>
 
-  <Link href="https://addify.us">
+  <Link href="https://addify.us/sahil">
   <a>
   <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
+  </a>
+  </Link>
+
+  <Link href="https://addify.us/sahil">
+  <a>
+  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">myrph.in</div>
+  </a>
+  </Link>
+
+  <Link href="https://addify.us/sahil">
+  <a>
+  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">kolkata.quest</div>
+  </a>
+  </Link>
+
+  <Link href="https://addify.us/sahil">
+  <a>
+  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Halo Hyderabad</div>
   </a>
   </Link>
 </div>

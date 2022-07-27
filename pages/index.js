@@ -79,14 +79,14 @@ export default function Home() {
         
       <div style={{display : `${blocker}`}}>
       <h1 className="sm:mx-48 text-center mx-6 text-white text-2xl sm:text-5xl pb-10 font-light">Recent Projects</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='hover:animate-pulse' onClick={hiddenDisplay2}>Contribution</span></h2>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay} >Projects</span> | <span className='hover:animate-pulse' onClick={hiddenDisplay2}>Contributions</span></h2>
 
       <Projects />
       </div>
 
       <div style={{display : `${blocker1}`}}>
-      <h1 className="sm:mx-48 mx-6 text-white text-center text-2xl sm:text-5xl pb-10 font-light">Open Source Contribution</h1>
-      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='hover:animate-pulse' onClick={hiddenDisplay} >Projects</span> | <span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay2}>Contribution</span></h2>
+      <h1 className="sm:mx-48 mx-6 text-white text-center text-2xl sm:text-5xl pb-10 font-light">Open Source Contributions</h1>
+      <h2 className="sm:mx-48 mx-6 text-white text-lg sm:text-2xl pb-10 font-light"><span className='hover:animate-pulse' onClick={hiddenDisplay} >Projects</span> | <span className='font-medium text-emerald-400 underline decoration-2 decoration-emerald-500 underline-offset-8' onClick={hiddenDisplay2}>Contributions</span></h2>
 
       <Contributions />
       </div>
