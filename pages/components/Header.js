@@ -13,7 +13,7 @@ const Header = ()=>{
         <link rel="canonical" href="http://sahilnetic.xyz/" />
         <meta name="robots" content="index, follow" />
         
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="Hi! This is Sahil." />
         <meta name="twitter:site" content="@sahilnetic" />
         <meta name="twitter:creator" content="@sahilnetic" />
         <meta property="og:url" content="https://sahilnetic.xyz" />
