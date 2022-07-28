@@ -3,44 +3,48 @@ const Projects = ()=>{
 
   return(
 <div>
-<div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 text-center mx-6 sm:mx-48 gap-x-5 gap-y-5 mb-28">
-  
-  <Link passHref href="https://appmojo.site">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Appmojo</div>
-  </a>
-  </Link>
-  <Link passHref href="https://findvc.vercel.app">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">{"{Findvc}"}</div>
-  </a>
-  </Link>
+<div className="grid sm:grid-cols-3 px-8 bg-transparent gap-y-8 sm:gap-x-8">
+          
+          <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Appmojo</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>
+        
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Whatsadd</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>
 
-  <Link href="https://addify.us/sahil">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">addify</div>
-  </a>
-  </Link>
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Intent</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>
+        
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Addify</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>     
 
-  <Link href="https://addify.us/sahil">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">myrph.in</div>
-  </a>
-  </Link>
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Myrph</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>   
 
-  <Link href="https://addify.us/sahil">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">kolkata.quest</div>
-  </a>
-  </Link>
-
-  <Link href="https://addify.us/sahil">
-  <a>
-  <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Halo Hyderabad</div>
-  </a>
-  </Link>
-</div>
-
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>Kolkata Quest</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div> 
+        
+                  
+        
+              </div>
+      
 
     </div>
   )
