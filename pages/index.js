@@ -50,7 +50,9 @@ export default function Home() {
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
                 <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, I'm Sahil </h1>
-                <p className="text-xl text-zinc-200"> I am a fullstack developer, and a cloud specialist. I love to contribute to open source projects. Checkout some of my projects.
+                <p className="text-xl text-zinc-200"> 
+                I'm a full stack developer, and a cloud professional.
+                I like contributing to open source projects. Look at some projects I've been working on.
                 </p>
     
                 <div className="py-5 flex gap-x-4">

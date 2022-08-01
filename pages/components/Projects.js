@@ -19,7 +19,13 @@ const Projects = ()=>{
 
                   <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
                     <p className="py-20" />
-                    <h3>Intent</h3>
+                    <h3>Hello Intent</h3>
+                    <p className="text-xs">Visit {">>"}</p>
+                  </div>
+
+                  <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
+                    <p className="py-20" />
+                    <h3>React Zilla</h3>
                     <p className="text-xs">Visit {">>"}</p>
                   </div>
         
@@ -31,13 +37,13 @@ const Projects = ()=>{
 
                   <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
                     <p className="py-20" />
-                    <h3>Myrph</h3>
+                    <h3>Whatshop</h3>
                     <p className="text-xs">Visit {">>"}</p>
                   </div>   
 
                   <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
                     <p className="py-20" />
-                    <h3>Kolkata Quest</h3>
+                    <h3>FindVc</h3>
                     <p className="text-xs">Visit {">>"}</p>
                   </div> 
         

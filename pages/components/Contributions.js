@@ -16,13 +16,7 @@ const Contributions = ()=>{
                 <p className="py-20" />
                 <h3>Stack Overflow</h3>
                 <p className="text-xs">Visit {">>"}</p>
-              </div>
-    
-              <div className="bg-white/30 px-3 py-3 rounded-lg shadow-lg shadow-lg opacity-90">
-                <p className="py-20" />
-                <h3>Nextjs</h3>
-                <p className="text-xs">Visit {">>"}</p>
-              </div>        
+              </div>     
     
               
     
