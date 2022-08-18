@@ -46,6 +46,8 @@ export default function Home() {
     
 <div className="py-16 bg-zinc-900">
         <div className="container m-auto px-6">
+
+          
       
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
@@ -61,7 +63,6 @@ export default function Home() {
              </div>  
              <div style={{display :social}} className='flex gap-x-4'>
                 <a href='https://addify.us'><Image width="20" height="20" src={addify} /></a>
-               <a href='https://github.com/sahilnetic'><Image width="20" height="20" src={github} /></a>
                 <a href='https://twitter.com/sahilnetic'><Image width="20" height="20" src={twitter} /></a>
                 <a href='https://instagram.com/sahilnetic'><Image width="20" height="20" src={instagram} /></a>
               </div>           

@@ -9,7 +9,7 @@ const Certification = ()=>{
     <div className="border border-2 shadow-lg rounded-lg py-20 text-white">Meta</div>
     </a>
     </Link>
-
+      
   </div>
 
     </>
