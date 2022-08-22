@@ -51,10 +51,10 @@ export default function Home() {
       
          <div className="lg:flex justify-between items-center">
              <div className="lg:w-6/12 lg:p-0 p-7">
-                <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, I'm Sahil </h1>
+                <h1 className="sm:text-5xl text-4xl text-white font-medium leading-tight mb-5 capitalize">Hi, There! </h1>
                 <p className="text-xl text-zinc-200"> 
-                I'm a full stack developer, and a cloud professional.
-                I like contributing to open source projects. Look at some projects I've been working on.
+                Hey! This is Sahil,
+                founder and ceo of addify. I like to build apps that solve real-life problems. I love to travel and eat like a local while traveling.
                 </p>
     
                 <div className="py-5 flex gap-x-4">
@@ -94,12 +94,6 @@ export default function Home() {
       <Contributions />
       </div>
 
-
-      <div className="py-16 bg-zinc-900">
-        <div className="container m-auto px-6">
-        <h2 className="sm:mx-24 text-white text-lg sm:text-2xl pb-10 font-light">Working Domain</h2>
-          <Domain />
-        </div></div>
 
       <Footer />
       
